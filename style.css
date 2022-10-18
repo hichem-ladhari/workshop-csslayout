@@ -1,0 +1,327 @@
+
+
+
+body {
+    font-weight: 400;
+    font-family: 'Roboto';font-size: 18px; 
+    color: #ababab;
+    margin: 0;
+    font-size:large ;
+}
+
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: #747474;
+    text-decoration: none;
+    padding: 0.6em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+    }
+     #about{
+       color: #00ccb1; 
+     }
+ 
+    
+     .logo {
+        text-decoration: none;
+        font-weight: bold;
+        color: #00ccb1;
+        font-size: 30px;
+        
+     }
+     
+     span{
+        color: #ababab;
+     }
+     .navbar>.secondary>li{
+        display: inline-block;
+        text-decoration: none;
+        justify-content: space-around;
+     }
+
+    .navbar>.secondary>li>a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #747474;
+        padding: 20px;
+
+    } 
+    .secondary{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
+    .paragraphs{
+        display: flex;
+        justify-content: center;
+        font-weight: normal;
+    
+    }   
+
+    
+
+    .title1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 200;
+        padding: 50px;
+        color: #00ccb1;
+        margin: 20px;
+    
+    }
+   
+    
+
+    .texts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid: auto auto / auto auto;
+        justify-content: space-between;
+        gap: 100px;
+        max-width: 1000px;
+        margin: 20px auto;    
+        
+    }
+    
+  
+   /* .cards-parents{
+       display: grid;
+       width: 1200px;
+       margin: 10px auto;
+       grid-template-columns: 1fr 1fr 1fr;
+       padding: 5px;
+            
+   } */
+
+   .cards-parents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+         
+}
+   
+       .patients-child{
+          background-color: #00ccb1;
+          color: whitesmoke;
+          margin: 50px;
+          padding: 60px;
+          border-radius: 10px; 
+          width: 190px;
+          margin-right: -20px;
+          
+   }
+        .Doctors-child{
+            background-color:#3e83e0 ;
+            color: whitesmoke;
+            margin: 50px;
+            padding: 60px;
+            border-radius: 10px;
+            width: 190px;
+        }
+    
+        .clinics-child{
+            background-color: #1b2735;
+            color: whitesmoke;
+            margin: 50px;
+            padding: 60px;
+            border-radius: 10px;
+            width: 190px;
+            margin-left: -20px;
+        }
+
+
+        .brands-section{
+            margin-left: 120px;
+            margin-right: 120px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+             
+
+        }
+
+        .global{
+            width: 35%;
+            color: #00ccb1;
+            font-size: medium;
+            font-weight: 300;
+
+        }
+        
+        .brands-logos{
+            width:65%;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap
+        }
+
+        .brands-logos > a {
+            padding: 10px;
+        }
+
+
+        
+        .options{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            
+        }
+
+
+        .stats{
+            display: flex;
+            background-color: #d8f6f6;
+            flex-direction: row;
+            height: 600px;
+            width: 100%;
+
+        }
+
+
+        .col-2stats__header{
+            margin-top: 50px;
+            width: 50%;
+            align-items: center;
+         }
+
+        .col-3stats{
+            color: #24a48f;
+            font-family: Work Sans,Arial,sans-serif;
+            font-size: 1.9em;
+           
+        }
+        .col-4stats{
+            font-size: .875em;
+            font-weight: 400;
+            padding: 13px 129px;
+        }
+
+      #bg{
+            height: 382px;
+            width: 440px;
+            margin-bottom: 5px;
+            margin-left: 10px ;
+        }
+
+       
+
+        .box{
+            background-color: #ffffff;    
+            width: 228px;
+            height: 250px;
+            border-radius: 5px;
+            margin-top: 31px;
+            text-align: center;
+            
+        }
+
+        .box img {
+            margin-top: 13%;
+            width: 40px;
+        }
+
+        .comments{
+            padding: 0%;
+            font-size: 13px;
+        }
+
+        .box boxes{ 
+            margin-left: 25px;
+            margin-top: 15px;
+
+        }
+       
+
+     
+
+        .text-container {
+            width: 470px;
+            margin: 8% 31%;
+            text-align: center;
+        
+        }
+
+        .slogan-text{
+            color: #00ccb1;
+            font-family: Work Sans,Arial,sans-serif;
+            font-size: 1.9em;
+
+
+        }
+
+        
+        .text-div {
+            font-size: .875em;
+            line-height: 1.7;
+        
+        }
+        
+        
+
+        .image-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 20px;
+            margin: 0% 13% 9%;
+        }
+        
+        .wrapper {
+            width: 309px;
+            height: 346px;
+            border: 1px solid #bbbbbb;
+            border-radius: 5px;
+        }
+        
+        .wrapper img {
+            width: 310px;
+            height: 278px;
+        
+        }
+        
+        .city-desc {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.7;
+            margin: 5%;
+        }
+        
+        .seemore-btn {
+        
+            border: 0;
+            border-radius: 4px;
+            padding: 10px 10px;
+            margin-left: 28%;
+            background: #3d83df;
+            line-height: 1em;
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: .04em;
+            font-size: .75rem;
+            text-align: center;
+        }
+        
+        .image-section a {
+            text-decoration: none;
+            color: #747474;
+        
+        }
+       
+        
+
+        
